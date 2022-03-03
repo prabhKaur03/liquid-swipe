@@ -51,7 +51,7 @@ open class LiquidSwipeContainerController: UIViewController {
     private var maxVertRadius: CGFloat {
         return view.bounds.height * 0.9
     }
-    private var initialSideWidth: CGFloat = 0
+    public var initialSideWidth: CGFloat = 0
     private var initialWaveCenter: CGFloat  {
         return view.bounds.height * 0.7167487685
     }
